@@ -1,0 +1,5 @@
+plugin: netbox.netbox.nb_inventory
+api_endpoint: http://host.docker.internal/dev/netbox/test
+token: 0123456789abcdef0123456789abcdef01234567
+device_query_filters:
+  - has_primary_ip: 'true'
