@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: AP-NCCD-009-005
   gather_facts: false
   connection: local
   tasks:
