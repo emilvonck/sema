@@ -5,4 +5,4 @@
   tasks:
     - name: debug
       ansible.builtin.debug:
-        msg: "{{data}}"
+        msg: "{{ netbox_device }}"
