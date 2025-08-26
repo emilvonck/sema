@@ -1,8 +1,8 @@
 ---
-- hosts: AP-NCCD-009-005
+- hosts: localhost
   gather_facts: false
   connection: local
   tasks:
     - name: debug
       ansible.builtin.debug:
-        var: hostvars[inventory_hostname]['ansible_host']
+        msg: "{{data}}"
